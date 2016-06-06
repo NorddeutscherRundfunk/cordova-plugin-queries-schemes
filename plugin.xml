@@ -55,9 +55,21 @@
                 <string>mqqopensdkgrouptribeshare</string>
                 <string>tencentapi.qq.reqContent</string>
                 <string>tencentapi.qzone.reqContent</string>
+                <string>wechat</string>
+                <string>weixin</string>
             </array>
         </config-file>
         <config-file target="*-Info.plist" parent="CFBundleURLTypes">
+            <array>
+                <dict>
+                    <key>CFBundleURLName</key>
+                    <string>weixin</string>
+                    <key>CFBundleURLSchemes</key>
+                    <array>
+                        <string>wx1f505150fdaa042e</string>
+                    </array>
+                </dict>
+            </array>
             <array>
                 <dict>
                     <key>CFBundleTypeRole</key>
