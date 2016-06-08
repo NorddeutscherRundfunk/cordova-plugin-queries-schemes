@@ -11,7 +11,7 @@
         <engine name="cordova" version=">=3.0.0" />
     </engines>
     <platform name="ios">
-         <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
+        <config-file target="*-Info.plist" parent="CFBundleDevelopmentRegion">
             <string>zh_CN</string>
         </config-file>
         <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
