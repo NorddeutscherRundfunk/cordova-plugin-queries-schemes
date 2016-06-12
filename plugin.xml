@@ -69,7 +69,7 @@
                     <string>weixin</string>
                     <key>CFBundleURLSchemes</key>
                     <array>
-                        <string>wx1f505150fdaa042e</string>
+                        <string>wx81f40406b3c59044</string>
                     </array>
                 </dict>
             </array>
@@ -81,7 +81,7 @@
                     <string>tencent</string>
                     <key>CFBundleURLSchemes</key>
                     <array>
-                        <string>tencent222222</string>
+                        <string>1105336069</string>
                     </array>
                 </dict>
                 <dict>
@@ -101,7 +101,7 @@
                     <string>tencentApiIdentifier</string>
                     <key>CFBundleURLSchemes</key>
                     <array>
-                        <string>tencent222222.content</string>
+                        <string>tencent1105336069</string>
                     </array>
                 </dict>
                 <dict>
@@ -111,7 +111,7 @@
                     <string>mqqapi</string>
                     <key>CFBundleURLSchemes</key>
                     <array>
-                        <string>QQ0003640E</string>
+                        <string>1105336069</string>
                     </array>
                 </dict>
             </array>
