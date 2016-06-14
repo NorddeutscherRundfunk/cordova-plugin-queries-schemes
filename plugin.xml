@@ -17,7 +17,6 @@
         </config-file>
         <!--app 方向设定 上-->
         <config-file target="*-Info.plist" parent="UISupportedInterfaceOrientations">
-            <string>zh_CN</string>
             <array>
                 <string>UIInterfaceOrientationPortrait</string>
             </array>
