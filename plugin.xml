@@ -11,9 +11,18 @@
         <engine name="cordova" version=">=3.0.0" />
     </engines>
     <platform name="ios">
+        <!--app 地区 相机按钮英文问题-->
         <config-file target="*-Info.plist" parent="CFBundleDevelopmentRegion">
             <string>zh_CN</string>
         </config-file>
+        <!--app 方向设定 上-->
+        <config-file target="*-Info.plist" parent="UISupportedInterfaceOrientations">
+            <string>zh_CN</string>
+            <array>
+                <string>UIInterfaceOrientationPortrait</string>
+            </array>
+        </config-file>
+         <!--白名单-->
         <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
             <array>
                 <string>terrydr.doctor</string>
@@ -62,6 +71,7 @@
                 <string>weixin</string>
             </array>
         </config-file>
+         <!-- 跳转app url -->
         <config-file target="*-Info.plist" parent="CFBundleURLTypes">
             <array>
                 <dict>
