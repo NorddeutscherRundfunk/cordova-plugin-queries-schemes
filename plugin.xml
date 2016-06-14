@@ -70,7 +70,7 @@
                 <string>weixin</string>
             </array>
         </config-file>
-         <!-- 跳转app url -->
+         <!-- 跳转app url URL types应用程序支持的url标识符的一个数组(用于程序回调，比如新浪微博验证成功后回调到该程序时候)-->
         <config-file target="*-Info.plist" parent="CFBundleURLTypes">
             <array>
                 <dict>
