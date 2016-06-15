@@ -90,7 +90,7 @@
                     <string>tencent</string>
                     <key>CFBundleURLSchemes</key>
                     <array>
-                        <string>1105336069</string>
+                        <string>tencent1105336069</string>
                     </array>
                 </dict>
                 <dict>
@@ -120,7 +120,7 @@
                     <string>mqqapi</string>
                     <key>CFBundleURLSchemes</key>
                     <array>
-                        <string>1105336069</string>
+                        <string>tencent1105336069</string>
                     </array>
                 </dict>
             </array>
